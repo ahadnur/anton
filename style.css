@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none
+}
+
+body{
+    padding: 0 145px;
+}
+
+
+/* Navigation style start */
+
+nav{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    display: flex;
+}
+.nav__links ul{
+    display: flex;
+}
+
+.nav__links ul li{
+    padding: 0 15px;
+}
+.nav__links ul li a{
+    color: #2F281E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cta__btn{
+    margin-left: 30px;
+}
+
+
+/* This design is for sign in btn */
+.sign_in{
+    margin-right: 10px;
+    padding: 11px 25px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    color: #173A56;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sign_up{
+    background: #FF9900;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 25px;
+}
+
+/* Navigation style ends */
+
+/* Header style starts */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.left .heading{
+    font-size: 44px;
+    font-weight: 700;
+    color: #2F281E;
+    width: 518px;
+    margin-bottom: 30px;
+}
+.left .para{
+    width: 458px;
+    color: #544837;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.btns .gs{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 40px;
+    background: #FF9900;
+    border-radius: 4px;
+    color: white;
+}
+.btns .wv{
+    margin-left: 30px;
+    color: #FF9900;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btns .wv i{
+    margin-right: 10px;
+}
+
+/* Header style ends */
+
+/* Feature style starts */
+.feature{
+    margin-top: 110px;
+}
+
+.feature .feature__heading{
+    text-align: center;
+    color: #2F281E;
+    font-size: 36px;
+    font-weight: 700;
+    width: 540px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.feature .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.feature .cards .card{
+    width: 240px;
+}
+
+/* Card one icon */
+.feature .cards .card .icon .bg1{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #7752BE;
+}
+.feature .cards .card .icon .bg1 .image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Card two icon */
+.feature .cards .card .icon .bg2{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #FAB005;
+}
+.feature .cards .card .icon .bg2 .image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Card three icon */
+.feature .cards .card .icon .bg3{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #F03E3D;
+}
+.feature .cards .card .icon .bg3 .image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Card four icon */
+.feature .cards .card .icon .bg4{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #4DADF7;
+}
+.feature .cards .card .icon .bg4 .image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature .cards .card .card__header{
+    font-size: 22px;
+    font-weight: 600;
+    color: #2F281E;
+    margin: 30px 0 10px 0;
+}
+.feature .cards .card p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #544837;
+}
+.feature .cta__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature .cta__btn a{
+    font-weight: 700;
+    font-size: 16px;
+    padding: 15px 34px;
+    background-color: #FF9900;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* We Started from here on 26 Feb */
+
+/* Design Pro section starts */
+
+.design__pro{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.design__pro .text{
+    width: 500px;
+}
+
+.design__pro .text .text__header .sub__title{
+    font-size: 16px;
+    font-weight: 500;
+    color: #544837;
+}
+.design__pro .text .text__header .title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #2F281E;
+    margin-bottom: 22px;
+
+}
+
+.design__pro .text .text__body{
+    margin-top: 30px;
+}
+
+.design__pro .text .text__body h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #2F281E;
+    margin-bottom: 12px;
+}
+
+.design__pro .text .text__body p{
+    color: #544837;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Footer design */
+footer{
+    padding: 85px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer__links{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer .footer__links a{
+    color: #544837;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+footer .input__fields{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+footer .input__fields input{
+    height: 48px;
+    width: 325px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+footer .input__fields input:focus{
+    outline: none;
+}
+
+
+footer .input__fields button{
+    width: 150px;
+    background-color: #FF9900;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
